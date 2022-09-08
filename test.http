@@ -1,0 +1,4 @@
+#POST https://mario-barcode-test1.cfapps.us10-001.hana.ondemand.com/barcode
+POST http://localhost:3000/barcode
+
+< r44-2686a.pdf

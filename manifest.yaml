@@ -1,0 +1,10 @@
+---
+applications:
+- name: barcode
+  routes:
+    - route: mario-barcode-test1.cfapps.us10-001.hana.ondemand.com
+  path: ./
+  memory: 3.5G
+  disk_quota: 2G
+  buildpack: python_buildpack
+  command: python barcode.py
